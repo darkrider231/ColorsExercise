@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non Inputs</title>
+</head>
+<body>
+    
+    <!-- Select Elements -->
+    <!-- Select Elements have opening and closing tags. Must create option elements inside of these tags -->
+    <label for="FastFood">Favorite Fast Food</label>
+    <select id="FastFood">
+        <!-- The hidden attribute will make the option no longer display after the user clicks on the dropdown -->
+        <option hidden>Select a restuarant</option>
+        <option value="">Chick-Fil-A</option>
+        <option value="">Whataburger</option>
+        <option value="">Wendy's</option>
+        <option value="">Five Guys</option>
+    </select>
+    <br>
+    <!-- Textarea -->
+    <!-- Text box where user can type. The cols and rows attributes determine the size of the textarea -->
+    <label for="joke">Tell a funny joke:</label>
+    <textarea id="joke" cols="30" rows="10" placeholder="Type a joke here."></textarea>
+    <br>
+    <!-- Button -->
+    <!-- Unlike the submit inputs, a button element allows for customized content to be displayed. BUtton eleemnt will also submit form values. -->
+    <button>Click Here</button>
+    <br>
+    <!-- Fieldset -->
+    <!-- Fieldset is used to group related form elements on a page -->
+    <fieldset>
+        <legend>Favorite Ice Creame Flavors</legend>
+        <label for="Cold">Cold</label>
+        <select name="" id="Cold">
+            <option value="">Galaxy Pie</option>
+            <option value="">Cheesecake</option>
+            <option value="">Banana Split</option>
+        </select><br>
+        <label for="Hot">Hot</label>
+        <select name="" id="Hot">
+            <option value="">Molton Lava Cake</option>
+            <option value="">Banana Fosters</option>
+            <option value="">Crepes Suzeete</option>
+        </select>
+
+    </fieldset>
+</body>
+</html>
