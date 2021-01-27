@@ -1,0 +1,48 @@
+/* Colors Exercise */
+/* Change color of h1 to red */
+h1 {
+    color:red;
+    background: peru;
+}
+
+/* Change color of h2 (RGB) to green */
+h2 {
+    color:rgb(0,255, 0);
+    background: rgb(0, 0, 255);
+}
+
+/* Change color of h3 (hexadecimal) to blue */
+h3 {
+    color: #0000ff;
+    background-color: #d2691e;
+}
+
+/* Change color of h4 (RGBA) to yellow */
+h4 {
+    color: rgba(255,255,0,0.5);
+    background: rgba(0, 139, 139, 0.2);
+}
+
+/* Change color of h5 to purple */
+h5 {
+    color: purple;
+    background: red;
+}
+
+/* Change color of h6 (RGB) to orange */
+h6 {
+    color: rgb(255,165,0);
+    background-color: rgba(0, 139, 139, 0.2);
+}
+
+p {
+    color:rgba(218, 112, 214, 0.3);
+    background:#00ff7f;
+}
+
+
+ol li {
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+}
