@@ -1,0 +1,92 @@
+/* #2 */
+body {
+    background: #CED4D8;
+}
+
+/* #3 */
+h1 {
+    color: #AC6AC7;
+}
+
+/* #4 */
+h2 {
+    color: rgb(255,165,0);
+}
+
+/* #5 */
+li {
+    color: blue;
+}
+
+/* #6 */
+p {
+    background: gold;
+}
+
+/* #7 */
+input {
+    border: 5px dotted pink;
+}
+
+/* #8 */
+.first {
+    background: #fff;
+}
+
+/* #9 */
+#important {
+    border: 3px dashed #0000ff;
+}
+
+/* #10 */
+div p {
+    font-size: 30px;
+}
+
+/* #11 */
+input.focus {
+    background: #808080;
+}
+
+/* #12 */
+div p:nth-of-type(3){
+    background: hotpink;
+}
+
+/* #13 */
+div  p:nth-child(2){
+    border: 7px solid rgb(255,255,255);
+}
+
+/* #14 */
+div em {
+    font-size: 25px;
+}
+
+/* BONUS */
+/* #1 */
+input:checked {
+    margin-left: 40px;
+}
+
+/* #2 */
+label > input {
+    font: small-caps;
+}
+
+/* #3 */
+#important::first-letter {
+    font-size: 90px;
+    color: lime;
+}
+
+/* #4 */
+h1:hover {
+    color:navy;
+}
+
+
+/* #5 */
+a:visited {
+    color:silver;
+}
