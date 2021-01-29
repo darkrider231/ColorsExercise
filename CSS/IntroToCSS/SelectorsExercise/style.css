@@ -44,7 +44,7 @@ div p {
 }
 
 /* #11 */
-input.focus {
+input[type="email"] {
     background: #808080;
 }
 

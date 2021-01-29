@@ -1,0 +1,28 @@
+/* This is a CSS comment */
+/* Command and / will also work in a CSS file to create a comment */
+
+/*CSS SYNTAX...*/
+/* Style tag (Better than inline styling, but still clutters up html file) */
+
+/*
+selector {
+    property: value;
+    second-Property: value;
+}
+*/
+
+/* Examples */
+/* This will make all text in h1 elements dark blue */
+h1 {
+    color:darkblue;
+}
+
+/* THis will make the lists (li) font color to blue */
+li {
+    color: blue;
+}
+/* This will make all divs have a background color of blue and a red border */
+div {
+    background: blue;
+    border:red;
+}
