@@ -669,6 +669,10 @@ input, select, textarea {
 				width: 90%;
 				max-width: 100%;
 			}
+			.messageForms{
+				margin: 15px;
+				width: 100%;
+			}
 
 		}
 
@@ -676,6 +680,10 @@ input, select, textarea {
 
 			.container {
 				width: 100% !important;
+			}
+			.messageForms{
+				margin: 15px;
+				width: 200em;
 			}
 
 		}
@@ -925,11 +933,17 @@ input, select, textarea {
 
 		@media screen and (max-width: 1680px) {
 
+			.messageForms{
+				margin: 15px;
+				width: 200em;
+				justify-content: flex-start;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+			
 			}
 
 				.row > * {
@@ -1109,6 +1123,7 @@ input, select, textarea {
 
 					.row.gtr-50.gtr-uniform {
 						margin-top: -1.25em;
+					
 					}
 
 						.row.gtr-50.gtr-uniform > * {
@@ -1170,6 +1185,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
+			.messageForms {
+				margin: 15px;
+				width: 200em;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1414,6 +1433,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+			.messageForms {
+				margin: 15px;
+				width: 200em;
+			}
 
 			.row {
 				display: flex;
@@ -1659,7 +1682,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			.messageForms{
+				margin: 15px;
+				width: 200em;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1905,6 +1931,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			.messageForms {
+				width: 5em;
+				margin: 15px;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2206,17 +2236,17 @@ input, select, textarea {
 	}
 
 		form.cta {
-			max-width: 35em;
+			max-width: 15em;
 			margin-left: auto;
 			margin-right: auto;
 		}
 
-	label {
+	.label {
 		color: #ffffff;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
-		margin: 0 0 1em 0;
+		margin: 0 auto;
 	}
 
 	input[type="text"],
@@ -2224,6 +2254,7 @@ input, select, textarea {
 	input[type="email"],
 	select,
 	textarea {
+		display: flex;
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -2236,11 +2267,12 @@ input, select, textarea {
 		border-radius: 4px;
 		border: solid 1px rgba(255, 255, 255, 0.3);
 		color: inherit;
-		display: block;
+		
 		outline: 0;
-		padding: 0 1em;
+		padding: 0 1px;
 		text-decoration: none;
-		width: 100%;
+		width: 75%;
+		margin: 0 auto;
 	}
 
 		input[type="text"]:invalid,
@@ -2710,6 +2742,12 @@ input, select, textarea {
 				flex-direction: column;
 				margin-left: 0;
 				width: 100% !important;
+			}
+
+			.messageForms {
+				margin: 5px;
+				width: 25em;
+				
 			}
 
 				ul.actions:not(.fixed) li {
@@ -3602,6 +3640,13 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 
+			.messageForms {
+				margin: 15px;
+				width: 60em;
+				justify-content: flex-start;
+
+			}
+
 	}
 
 /* Large */
@@ -3612,6 +3657,12 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 11.5pt;
+			}
+
+			.messageForms {
+				margin: 3em;
+				width: 60em;
+				justify-content: flex-start;
 			}
 
 		/* Spotlight */
@@ -3663,6 +3714,10 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+			.messageForms {
+				margin: 5px;
+				width: 50em;
 			}
 
 		/* Spotlight */
@@ -3762,6 +3817,11 @@ input, select, textarea {
 
 			html, body {
 				overflow-x: hidden;
+			}
+			.messageForms {
+				margin: 5px;
+				width: 45em;
+				justify-content: flex-start;
 			}
 
 			body, input, select, textarea {
@@ -4053,7 +4113,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 3.25em 1.5em;
+				padding: 3.30em 1.5em;
 			}
 
 	}
@@ -4068,8 +4128,20 @@ input, select, textarea {
 				min-width: 320px;
 			}
 
+			.messageForms {
+				margin: 15px;
+				width: 25em;
+				justify-content: flex-start;
+			}
+
 			body, input, select, textarea {
 				font-size: 12pt;
+				margin: 0 auto;
+				min-width: 20px;
+			}
+			.six {
+				margin: 0 auto;
+				width: 5em;
 			}
 
 		/* Button */
@@ -4149,7 +4221,11 @@ input, select, textarea {
 		width: 22em;
 	}
 
-	
+	.form {
+		width: 50em;
+		margin: 0 auto;
+		
+	}
 
 	.footer {
 		margin-top: 20px;

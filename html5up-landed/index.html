@@ -182,10 +182,27 @@
 							<p><a href="mailto:darkrider231@gmail.com" target="_top">darkrider231@gmail.com</a></p>
 							<h3><a href="resume2021.pdf" target="_blank">View Resume</a></h3>
 						</header>
-						<form method="post" action="#" class="cta">
-							<div class="row gtr-uniform gtr-50">
-								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
-								<div class="col-4 col-12-xsmall"><input type="submit" value="Get Started" class="fit primary" /></div>
+						
+							<div class="form" row gtr-uniform gtr-50>
+								<div class="col-8 col-12-xsmall">
+									<!-- modify this form HTML and place wherever you want your form -->
+
+									<form class="messageForms"
+									  action="https://formspree.io/f/xqkgvpqq"
+									  method="POST">
+									  <label>
+										Your email:
+										<input class="input"type="email" name="_replyto">
+									  </label>
+									  <label >
+										Your message:
+										<textarea class="textarea" name="message"></textarea>
+									  </label>
+									
+									  <!-- your other form fields go here -->
+									
+									  <button class="sub" type="submit">Send</button>
+									</form></div>
 							</div>
 						</form>
 					</div>
