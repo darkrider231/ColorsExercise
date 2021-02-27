@@ -80,6 +80,7 @@ label {
 
 	html {
 		box-sizing: border-box;
+		font-family: 'Ubuntu', sans-serif;
 	}
 
 	*, *:before, *:after {
@@ -103,7 +104,7 @@ label {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", Helvetica, sans-serif;
+		font-family: 'Ubuntu', sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
 		line-height: 1.75em;
@@ -208,7 +209,7 @@ label {
 	code {
 		background: rgba(255, 255, 255, 0.075);
 		border-radius: 4px;
-		font-family: "Courier New", monospace;
+		font-family: 'Ubuntu', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -216,7 +217,7 @@ label {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: 'Ubuntu', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -563,7 +564,7 @@ label {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Ubuntu', sans-serif;
 			font-weight: 900;
 		}
 
@@ -2367,7 +2368,7 @@ label {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Ubuntu', sans-serif;
 				font-weight: 900;
 			}
 
@@ -2465,7 +2466,7 @@ label {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Ubuntu', sans-serif;
 			font-weight: 400;
 		}
 
@@ -2482,7 +2483,7 @@ label {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands' !important;
+			font-family: 'Ubuntu', sans-serif !important;
 		}
 
 		.icon.alt {
@@ -2498,7 +2499,7 @@ label {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Ubuntu', sans-serif;
 				font-weight: 400;
 			}
 
@@ -2536,7 +2537,7 @@ label {
 					text-rendering: auto;
 					line-height: 1;
 					text-transform: none !important;
-					font-family: 'Font Awesome 5 Free';
+					font-family: 'Ubuntu', sans-serif;
 					font-weight: 400;
 				}
 
@@ -3599,7 +3600,7 @@ label {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Ubuntu', sans-serif;
 				font-weight: 400;
 			}
 
@@ -4000,7 +4001,7 @@ label {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+						font-family: 'Ubuntu', sans-serif;
 						font-weight: 900;
 					}
 
