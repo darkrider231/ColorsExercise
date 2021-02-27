@@ -4133,9 +4133,9 @@ label {
 			}
 
 			.messageForms {
-				margin: 1px;
+				margin-left: 5px;
 				width: 20em;
-				justify-items: center;
+				justify-items: flex-start;
 				
 			}
 
