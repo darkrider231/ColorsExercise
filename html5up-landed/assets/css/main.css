@@ -73,7 +73,6 @@ input, select, textarea {
 }
 label {
 	font-size: 30px;
-	padding: 5px;
 	
 }
 
@@ -4136,7 +4135,7 @@ label {
 			.messageForms {
 				margin: 0.5em;
 				width: 25em;
-				justify-content: flex-start;
+				
 			}
 
 			body, input, select, textarea {
