@@ -1937,7 +1937,7 @@ label {
 
 			.messageForms {
 				width: 5em;
-				margin: 15px;
+				margin: 1px;
 			}
 			.row {
 				display: flex;
@@ -4133,8 +4133,9 @@ label {
 			}
 
 			.messageForms {
-				margin: 0.5em;
-				width: 25em;
+				margin: 1px;
+				width: 20em;
+				justify-items: center;
 				
 			}
 
