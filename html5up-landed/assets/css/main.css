@@ -1937,7 +1937,8 @@ label {
 
 			.messageForms {
 				width: 5em;
-				margin: 1px;
+				margin-left: 1px;
+				margin-right: 5px;
 			}
 			.row {
 				display: flex;
