@@ -71,6 +71,11 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+label {
+	font-size: 30px;
+	padding: 5px;
+	
+}
 
 /* Basic */
 
@@ -3641,7 +3646,7 @@ input, select, textarea {
 			}
 
 			.messageForms {
-				margin: 15px;
+				margin: 70px;
 				width: 60em;
 				justify-content: flex-start;
 
@@ -4167,6 +4172,7 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 1.25em 1em 1.25em;
+				margin: 0 auto;
 			}
 
 		/* Banner */
@@ -4221,10 +4227,12 @@ input, select, textarea {
 		width: 22em;
 	}
 
-	.form {
-		width: 50em;
-		margin: 0 auto;
-		
+	.sub1 {
+		background: rgba(255,0,0,0.5);
+		width: 10em;
+		height: 2em;
+		font-size: 30px;
+		margin-top: 20px;
 	}
 
 	.footer {
