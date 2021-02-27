@@ -4133,9 +4133,9 @@ label {
 			}
 
 			.messageForms {
-				margin-left: 5px;
-				width: 20em;
-				justify-items: flex-start;
+				margin-left: 1px;
+				width: 17em;
+				justify-content: flex-start;
 				
 			}
 
@@ -4229,7 +4229,7 @@ label {
 
 	.sub1 {
 		background: rgba(255,0,0,0.5);
-		width: 10em;
+		width: 5em;
 		height: 2em;
 		font-size: 30px;
 		margin-top: 20px;
