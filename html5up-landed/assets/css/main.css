@@ -1937,9 +1937,18 @@ label {
 		@media screen and (max-width: 480px) {
 
 			.messageForms {
-				width: 5em;
+				width: 3em;
 				margin-left: 5px;
 				margin-right: 5px;
+			}
+			.textarea {
+				width: 25em;
+			}
+			.input.input {
+				width: 25em;
+			}
+			.email {
+				text-align: center;
 			}
 			.row {
 				display: flex;
@@ -4199,6 +4208,7 @@ label {
 						margin: 0;
 						padding: 0;
 					}
+				
 
 	}
 
@@ -4239,6 +4249,7 @@ label {
 		height: 2em;
 		font-size: 30px;
 		margin-top: 20px;
+		margin-left: 3em;
 	}
 
 	.footer {
