@@ -1,0 +1,12 @@
+/* FLOAT */
+img {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    /* Float takes the element out of the normal decoument flow. Also, removes the "mystery" */
+    float: left;
+    
+
+}

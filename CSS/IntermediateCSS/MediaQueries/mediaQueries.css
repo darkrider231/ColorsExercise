@@ -1,0 +1,65 @@
+body {
+    background: orange;
+}
+
+/* Remember to keep media queries at the end of your css file so the styles are not overwritten */
+/* When the viewport width is 700px or less the background color on the body element will be pink */
+@media (max-width: 700px) {
+    body {
+        background: pink;
+    }
+}
+
+/* When using max-width media queries, start with the largest size and work down from there */
+/* When the viewport width is 500px or less the background color on the body element will be blue */
+@media (max-width: 500px){
+    body{
+        background: blue;
+    }
+}
+
+/* When the viewport is in landscape mode (width more than height) the h2 element text will be uppercase */
+@media (orientation: landscape) {
+    h2 {
+        text-transform: uppercase;
+    }
+}
+
+/* When the viewport is in portrait mode (height more than width) the h2 element text will have line through it */
+@media (orientation: portrait) {
+    h2 {
+        text-decoration: line-through;
+    }
+}
+
+/* When viewport is in portraide mode (height ismore than width) AND width is 400px or less the h1 will that the border style */
+@media (orientation: portrait) and (max-width: 400px) {
+    h1 {
+        border: 5px dashed black;
+    }
+}
+
+/* When viewport is in portrait mode (height is more than width) OR width is 400px or less the h1 will have white text color */
+@media (orientation: portrait), (max-width: 400px){
+    h1 {
+        color: white;
+    }
+}
+
+/* When viewport width is 800px or more the background color will be green */
+@media (min-width: 800px) {
+    body {
+        background: green;
+    }
+    h1 {
+        background: red;
+        font-weight: 50px;
+    }
+}
+
+/* When viewport height is 500px or more the background color will be black */
+@media (min-height: 500px){
+    body {
+        background: black;
+    }
+}

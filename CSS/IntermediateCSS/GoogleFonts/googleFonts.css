@@ -1,0 +1,11 @@
+h1 {
+    /* Google fonts provides this for us */
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    /* If you want to have text that is bold and italic, you must select that specific font */
+}
+
+p {
+    font-family: 'Press Start 2P', cursive;
+}

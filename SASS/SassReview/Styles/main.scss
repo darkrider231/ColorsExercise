@@ -1,0 +1,42 @@
+// Sass Review
+
+// import the partial file
+@import "values";
+
+
+.eighties {
+    background: blue;
+    font-weight: bold;
+
+    // Mixin
+    @include flex(space-between, flex-end);
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: flex-end;
+
+    // Nesting
+    h1 {
+        color: white;
+    }
+    ul {
+        // border: 3px solid #d92121;
+        border: 3px solid $color1;
+        // color: #d92121;
+        color: $color1;
+    }
+}
+
+.nineties {
+    // Mixin
+    @include flex(flex-end, center);
+
+    // display: flex;
+    // justify-content: flex-end;
+    // align-items: center;
+
+    
+    ul {
+        // Extendable Class
+        @extend %colors;
+    }
+}

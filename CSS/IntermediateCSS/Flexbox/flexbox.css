@@ -1,0 +1,120 @@
+/* FLEXBOX */
+/* Flexbox allows for a flexiable and responsive layout to be created without having to use float or position */
+
+div div {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    font-size: 25px;
+
+}
+
+.container {
+    background: #999;
+    /* display: flex creates a flexbox container */
+    /* Flexbox always has a main axis and cross axis. Main axis is horizontal and cross axis is vertical by default when using flexbox (Ex: display: flex) */
+    display: flex;
+
+    /* Justify Content */
+    /* Justify Content will determine how the elements are set along the main axis (Horizontal axis in this case) */
+    /* flex-start is the default justify content value */
+
+    /* flex-end positionis the flexbox items at the end of the main axis (All the way to the right in our case) */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+
+    /* Center positions the flexbox items in the center of the main axis (Horizontal axis in our case) */
+    /* justify-content: center; */
+
+    /* Space Between positions the items with even distribution of space between them */
+    /* justify-content: space-between; */
+
+    /* space-around positions the items with even distribution of left and right margin on each one */
+    /* justify-content: space-around; */
+
+    /* Align Items */
+    /* Align Items will determine how the elements are set along the cross axis (Vertical axis in this case) */
+    /* Stretch is the defaulse value for Align Items (Since we have min-height values set on the divs they stretch to fill the verticle space */
+    /* align-items: stretch; */
+
+    /* Center will remove the default strech value and center the item along the cross axis (Vertical axis in this case) */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+
+    /* FLEX WRAP */
+    /* Flex Wrap wraps items that cannot fit, onto the next line */
+    /* flex-wrap: wrap; */
+
+    /* Align Content */
+    /* Align Content is used like "Align Items" for elements that are being wrapped onto another line */
+    /* align-content: center;
+    align-content: flex-end;
+    align-content: flex-start;
+    height: 750px; */
+
+    /* Flex Direction */
+    /* Flex Direction set the flex items  in a row or a column (The default is a row) */
+    /* flex-direction: column changes flex items into a column instead of a row; */
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+
+}
+
+.red {
+    background: red;
+    min-height: 100px;
+
+    /* FLEX GROW */
+    /* FLex grow determines if a flexbox will grow and how much it will grow. 0 is the default value */
+    /* flex-grow: 0; */
+    /* flex-grow: 1; */
+
+    /* Flex Shrink */
+    /* Flex Shrink determines if a flexbox item will shrink and how much it will shrink. 1 is the default value */
+    /* flex-shrink: 1 */
+    /* Item does not shrink when flex shrink is set to zero */
+    /* flex-shrink: 0; */
+    /* Item shrinks twice as fast as other items */
+    /* flex-shrink: 2; */
+    /* flex-shrink: 2; */
+
+    /* FLEX BASIS */
+    /* Flex basis determins where the flex grow/shrink properties start from. Default is auto, which sts the length of the flexbox item to its predetermined length. Flex basis is usually set with a length in pixels */
+    /* flex-basis: 400px; */
+    /* flex-shrink: 2; */
+    /* flex-grow: 1; */
+
+    /* FLEXBOX SHORTHAND PROPERTY */
+    /* Flex grow, flex shrink, flex basis */
+    /* Default values are flex: 0, 1, auto */
+    /* flex: 1 2 300px; */
+
+    /* ORDER */
+    /* Order changes the order of the flexbox items in their container */
+    /* order: 2; */
+
+    /* ALIGN-SELF */
+    /* Align self allow you to set the align items property on a single flexbox item */
+    align-self: center;
+}
+
+.green {
+    background: green;
+    min-height: 200px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    /* order: 3; */
+    align-self: flex-end;
+}
+
+.blue {
+    background: blue;
+    min-height: 300px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    /* order: 1; */
+    align-self: flex-start;
+}

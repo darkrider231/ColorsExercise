@@ -1,0 +1,61 @@
+/* FLEXBOX REVIEW */
+
+h1 {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border: 5px solid black;
+}
+
+div {
+    background: orange;
+    display: flex;
+
+}
+
+#one {
+    /* Flex Grow */
+    /* Flex Grow determines how to distribute the extra space along the main axis. 0 is the default value */
+    /* flex-grow: 0; */
+    /* flex-grow: 1; */
+
+    /* Flex Shrink */
+    /* Flex shrink determines how to remove/shrink the length of the elements along the main axis */
+    /* 1 is the defaul value */
+    /* setting flex shrink to zero will cause the element not to shrink at all */
+    /* flex-shrink: 3; */
+
+    /* Flex Basis */
+    /* Flex Basis sets a new length length of th elements along the main axis. Also, it determines where the flex grow/shrink properties start from */
+    /* flex-basis: 400px; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+
+    /* Flexbox Shorthand Property */
+    /* Flex grow, flex shrink, flex basis */
+    /* Default values */
+    /* flex: 0 1 auto; */
+    /* flex: 1 0 300px; */
+
+    /* Order */
+    /* Order changes the other the flexbox items are in */
+    /* order: 2; */
+
+    /* Align Self */
+    /* Align self allows you to set the align items property on a single flexbox item */
+    /* height: 100px; */
+    /* align-self: center; */
+}
+
+#two {
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 300px; */
+    /* order: 1; */
+}
+
+#three {
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* order: 3; */
+}

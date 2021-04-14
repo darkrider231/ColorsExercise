@@ -1,0 +1,29 @@
+/* FLEXBOX REVIEW */
+
+section {
+    background: green;
+    height: 500px;
+
+    /* This will change the section element into a flexbox container. Also, it will change the h1 elements into flexbox items */
+    display: flex;
+
+    /* This will change the h1s from displaying in a row to displaying in a column (Vertically)  */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+
+    /* Justify Content will determine how our flexbox items are displayed along the main axis */
+    /* flex-start, center, flex-end, space-between, space-around */
+    justify-content: center;
+
+    /* Align Items will determine how our flexbox items are displayed along the cross axis */
+    /* flex-start, center, flex-end */
+    align-items: center;
+}
+
+h1 {
+    border: 5px solid gold;
+    color: gold;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}

@@ -1,3 +1,4 @@
+/* H1 Margin */
 h1 {
     margin: 0px 650px;
     
@@ -5,7 +6,8 @@ h1 {
 
 /* Boxes */
 #one {
-    width: 400px;
+    width: 500px;
+    height: 500px;
     border: 3px solid black;
     margin-left: 300px;
     margin-top: 100px;
@@ -17,8 +19,8 @@ h1 {
 }
 
 #two { 
-   width: 200px;
-   height: 200px;
+   width: 300px;
+   height: 300px;
    margin-left: 0px;
    border: 3px solid black;
    padding: 100px 100px 100px 100px;
@@ -30,9 +32,37 @@ h1 {
     width: 100px;
     height: 100px;
     border: 3px solid black;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 0px;
     padding: 50px;
     background: white;
 }
+
+/* Correct Way */
+/* 
+
+div {
+    border: 3px solid black;
+    margin: 100px auto;
+    width: 500px;
+    height: 500px;
+}
+
+#one {
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+#two {
+    width: 300px;
+    height: 300px;
+}
+
+
+#three {
+    width: 100px;
+    height: 100px;
+}
+*/

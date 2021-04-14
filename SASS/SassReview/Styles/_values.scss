@@ -1,0 +1,17 @@
+// THis is a partial file
+
+// Variables
+$color1: #d92121;
+
+// Mixin
+@mixin flex ($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+// Extendable class (AKA Inheritance)
+%colors {
+    color: #ed1c24;
+    border: 3px solid #8fd129;
+}
